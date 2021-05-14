@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+nav{
+    background: #1A5276;
+    
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.first{
+    font-size: 30px;
+    color: #1e2a31;
+    font-weight: 900;
+}

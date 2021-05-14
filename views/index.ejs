@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OJ : Oujari Hicham</title>
+</head>
+<body>
+    <center>
+        <table>
+        <tr>
+            <th>Id</th>
+            <th>User1</th>
+            <th>User2</th>
+        </tr>
+        <% for(matches of data){
+            %>
+                <tr>
+                    <td><%= matches.id %></td>
+                    <td><%= matches.user1_name %></td>
+                    <td><%= matches.user2_name %></td>
+                </tr>
+            <%
+        } %>
+        </table>
+        <br/>
+    </center>
+</body>
+</html>
